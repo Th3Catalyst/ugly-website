@@ -1,0 +1,103 @@
+body {
+  margin: 0px;
+}
+html {
+  height: 100%;
+  width: 100%;
+  background-repeat: repeat;
+  font-family: Arial, sans-serif;
+  background-image: radial-gradient(#e9c46a, #2a9d8f 70%);
+  animation-name: flashing;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes flashing {
+  from {background-image: radial-gradient(#e9c46a, #2a9d8f 70%);}
+  to {background-image: radial-gradient(#2a9d8f, #e9c46a 70%);}
+}
+.header h1 {
+  font-size: 250%;
+  margin-bottom: 0px;
+  color: #e3a52f;
+  text-shadow: 2px 2px #222;
+}
+.header h3 {
+  margin-top: 0px;
+  color: #f0f296;
+  text-shadow: 1px 1px #222;
+}
+.header {
+  font-family: "Georgia", serif;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  width: 100%;
+  display: flex;
+  padding-top: 1.5em;
+  align-items: flex-start;
+  border-bottom: solid 2px #000;
+  background-color: #264653;
+}
+.family {
+  font-family: "Times New Roman", Times, serif;
+  color: #000 !important;
+  font-weight: bold;
+}
+.flex-container {
+  justify-content: center;
+  justify-self: center;
+  padding: 10px;
+  display:flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  width: 100%;
+
+}
+.box {
+  margin: 1em;
+  width: 40%;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 18px 3px rgba(0,0,0, 0.5);
+  backdrop-filter: blur(20px);
+  background-color: rgba(0,0,0,0.2);
+}
+.center h3 {
+  text-align: center;
+  border-bottom: solid 2px #000;
+  font-family: "Lexend";
+}
+.center {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  top: -1em;
+}
+@media only screen and (min-width: 767px) {
+.full-width {
+  width: calc(10px + 2em + 80%)!important;
+}
+}
+#side-bar {
+  display:block;
+  position:fixed;
+  width: 17em;
+  height: 100%;
+  left: 0em;
+  top: 0em;
+  z-index: 100;
+  transition: 0.5s ease-in-out 0.1s;
+  -o-transition: 0.5s ease-in-out 0.1s;
+  -webkit-transition: 0.5s ease-in-out 0.1s;
+  -mez-transition: 0.5s ease-in-out 0.1s;
+  -ms-transition: 0.5s ease-in-out 0.1s;
+  -webkit-backdrop-filter: blur(2px);
+  -o-backdrop-filter: blur(2px);
+  -mez-backdrop-filter: blur(2px);
+  -ms-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  background-color: rgba(0,0,0,0.1);
+}
