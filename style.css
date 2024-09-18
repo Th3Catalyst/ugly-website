@@ -107,7 +107,10 @@ html {
 
 }
 .main-content {
-  text-align: right;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border: solid 2px #000 ;
 }
 .marquee {
   background: #4f7a28;
