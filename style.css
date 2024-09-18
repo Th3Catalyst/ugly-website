@@ -94,12 +94,12 @@ html {
   -webkit-transition: 0.5s ease-in-out 0.1s;
   -mez-transition: 0.5s ease-in-out 0.1s;
   -ms-transition: 0.5s ease-in-out 0.1s;
-  -webkit-backdrop-filter: blur(2px);
-  -o-backdrop-filter: blur(2px);
-  -mez-backdrop-filter: blur(2px);
-  -ms-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
-  background-color: rgba(0,0,0,0.1);
+  -webkit-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+  -mez-backdrop-filter: blur(10px);
+  -ms-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0,0,0,0.5);
 }
 #side-bar:target {
    left: 0;
