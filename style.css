@@ -106,14 +106,3 @@ html {
 
 
 }
-
-#side-bar:target .close-menu {
-   display: block;
-   position: fixed;
-   top: 0px;
-   left: 0px;
-   width: 1000000em;
-   height:100000em;
-   z-index: -1;
-   opacity:0;
-}
