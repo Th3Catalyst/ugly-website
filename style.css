@@ -86,7 +86,7 @@ html {
   position:fixed;
   width: 17em;
   height: 100%;
-  left: 0em;
+  left: -24em;
   top: 0em;
   z-index: 100;
   transition: 0.5s ease-in-out 0.1s;
@@ -101,3 +101,9 @@ html {
   backdrop-filter: blur(2px);
   background-color: rgba(0,0,0,0.1);
 }
+#side-bar:target {
+   left: 0;
+
+
+}
+
