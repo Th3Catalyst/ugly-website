@@ -109,3 +109,8 @@ html {
 .main-content {
   text-align: right;
 }
+.marquee {
+  background: #4f7a28;
+  white-space: nowrap;
+  -webkit-animation: rightThenLeft 4s linear;
+}
